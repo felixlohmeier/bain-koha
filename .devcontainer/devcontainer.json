@@ -1,0 +1,10 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "postCreateCommand":
+  {
+    "download": "wget https://librarycarpentry.org/lc-shell/data/shell-lesson.zip",
+    "unzip": "unzip shell-lesson.zip -d shell-lesson && rm shell-lesson.zip"
+  }
+}
